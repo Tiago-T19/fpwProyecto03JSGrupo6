@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Título */
+h1 {
+    color: #ff4757;
+}
+
+/* Select */
+#filtroGenero {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Botón */
+#btnFiltrar {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btnFiltrar:hover {
+    background-color: #e84118;
+}
+
+/* Lista */
+#listaPeliculas {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Tarjetas */
+#listaPeliculas li {
+    width: 280px;
+    background-color: #2f3542;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.4);
+
+    transition: transform 0.3s;
+}
+
+/* Efecto hover */
+#listaPeliculas li:hover {
+    transform: translateY(-5px);
+}
+
+/* Puntaje */
+#listaPeliculas li::before {
+    content: "🎬 ";
+    font-size: 22px;
+}
