@@ -21,6 +21,8 @@ btnAgregar.addEventListener('click', () => {
         libreta: libretaVal
     });
 
+    console.log(listaEstudiantes);
+
     const filasHTML = listaEstudiantes.map(estudiante => {
         return `
             <tr>
