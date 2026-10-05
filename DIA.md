@@ -17,3 +17,9 @@
 
 ## Uso IA:
 - Si, como copiloto y de evaluacion 
+
+# Mailen Castro
+## Ejercicio 04 proyecto 04 JS que estan haciendo
+## Filtrar Peliculas por genero y calificacion
+## Archivos modificados (Modificados, Creados, Eliminados) creados ejercicio4.html, ejercicio4.js
+## Uso IA: si: como copiloto (interaccion) y de evaluacion
