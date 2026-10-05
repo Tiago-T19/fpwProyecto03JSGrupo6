@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #0d0f18; /* Fondo base oscuro tipo synthwave */
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Tarjeta contenedora con estética neón */
+.contenedor {
+    background: rgba(18, 16, 38, 0.85);
+    border: 2px solid #00f3ff; /* Borde cian neón */
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 15px #00f3ff, inset 0 0 10px rgba(0, 243, 255, 0.3); /* Resplandor neón */
+    backdrop-filter: blur(5px);
+    max-width: 400px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff0055; /* Magenta neón */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px #ff0055, 0 0 20px #ff0055;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #e0e6ed;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Botón cibernético */
+button {
+    font-family: 'Orbitron', sans-serif;
+    padding: 14px 28px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #0d0f18;
+    background-color: #ffe600; /* Amarillo neón intenso */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 0 12px #ffe600;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #00f3ff;
+    color: #0d0f18;
+    box-shadow: 0 0 25px #00f3ff;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
